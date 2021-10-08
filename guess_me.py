@@ -33,9 +33,6 @@ def guess_random_number(tries, start, stop):
             break
 
 
-guess_random_number(5, 1, 100)
-
-
 def guess_random_number_num_linear(tries, start, stop):  # linear search
     random_number = random.randint(start, stop)
     print("The number for the program to guess is:", random_number)
@@ -78,3 +75,6 @@ def guess_random_num_binary(tries, start, stop):  # binary search
 
 
 #guess_random_num_binary(6, 1, 100)
+
+while True:
+    guess_random_number(5, 1, 100)
